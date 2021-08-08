@@ -1,0 +1,14 @@
+mat-slider {
+  width: 300px;
+}
+
+body {
+  border: 1px solid;
+  width: 600px;
+  margin:5px;
+  height: 200px;
+}
+
+span {
+  color: red;
+}

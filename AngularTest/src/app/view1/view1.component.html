@@ -1,0 +1,23 @@
+
+
+
+<body>
+  <h1>View1</h1>
+  <br/>
+  <br/>
+
+  <!-- <span *ngIf="value>50">Invalid input! Please enter an integer from 50 to 75.</span> -->
+  <br/>
+
+  <mat-slider
+
+        [max]="max"
+        [min]="min"
+        [step]="step"
+        [(ngModel)]="value"
+        (ngModelChange)="updateSliderValue($event)"
+        >
+  </mat-slider>
+
+  <label>&nbsp;&nbsp;{{value}}</label>
+</body>
